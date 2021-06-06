@@ -27,7 +27,7 @@ msgstr "1. 设计和配置"
 
 #: ../tigase-acs.rst:9
 msgid "1.1. ACS"
-msgstr ""
+msgstr "1.1. ACS"
 
 #: ../tigase-acs.rst:11
 msgid ""
@@ -36,11 +36,11 @@ msgid ""
 "beyond of online users without limit on cluster nodes. The load tests we "
 "have run over the code were included a user database with 100mln accounts"
 " and an average roster size of up to 150, but that\\'s not the limit."
-msgstr ""
+msgstr "ACS 是我们的通用商业集群策略，专为或多或少典型的 XMPP 安装而设计，可轻松扩展到数百万甚至更多的在线用户，而不受集群节点的限制。我们对代码运行的负载测试包括一个拥有 1 亿个帐户的用户数据库，平均名册大小高达 150，但这不是限制"
 
 #: ../tigase-acs.rst:14
 msgid "1.2. Design"
-msgstr ""
+msgstr "1.2. 设计"
 
 #: ../tigase-acs.rst:15
 msgid ""
@@ -51,7 +51,7 @@ msgid ""
 "efficient synchronization mechanism allows for a minimal traffic between "
 "cluster nodes and distributing accurate data about connecting and "
 "disconnecting users."
-msgstr ""
+msgstr "集群策略基于集群节点之间共享在线用户的信息。谁在线以及用户在哪里连接。以最高优先级处理集群节点之间的通信，以确保在线用户数据填充的延迟最小。高效的同步机制允许集群节点之间的流量最小，并分发有关连接和断开用户的准确数据"
 
 #: ../tigase-acs.rst:18
 msgid "2. Tigase ACS SM Installation"
@@ -63,7 +63,7 @@ msgid ""
 "release (@-dist-max@ flavour of archive) so it\\'s enough to enable it in"
 " the configuration. It can be also obtained from tigase-acs distribution "
 "package."
-msgstr ""
+msgstr "Tigase ACS SM 组件默认随 Tigase XMPP 服务器版本提供（@-dist-max@ 归档风格），因此在配置中启用它就足够了，它也可以从 tigase-acs 分发包中获得。"
 
 #: ../tigase-acs.rst:22
 msgid ""
@@ -72,7 +72,7 @@ msgid ""
 "directory in tigase-server/ installation directory, eg. under \\*nix "
 "systems (assuming the archive was downloaded to main Tigase Server "
 "directory):"
-msgstr ""
+msgstr "下载档案后，只需将其解压缩并将解压档案的 jars/ 目录的内容复制到 tigase-server/ 安装目录中的 jars/ 目录，例如。在 *nix 系统下（假设存档已下载到主 Tigase 服务器目录）："
 
 #: ../tigase-acs.rst:30
 msgid "3. Tigase ACS SM Configuration"
