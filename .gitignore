@@ -1,0 +1,4 @@
+#ignore build file
+docs/build
+**/*.mo
+**/*.pot
