@@ -16,6 +16,7 @@ TIGASE-pub
 
 .. toctree::
    :maxdepth: 1
+   :caption: TIGASE-pub
 
 
    3.0.1
