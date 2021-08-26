@@ -9,12 +9,12 @@ Welcome to Tigase's Documentation
  
    tigase-acs
 
-Subheading
+TIGASE-pub
 -----------
 
 .. toctree::
    :maxdepth: 2
-   :caption: TIGASE-pub
+
 
    3.0.1
 
