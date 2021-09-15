@@ -3,7 +3,7 @@
 Welcome to Tigase's Documentation
 ===================================
 
-TIGASE-pub
+TIGASE-acs
 -----------
 .. toctree::
    :maxdepth: 1
