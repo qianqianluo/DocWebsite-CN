@@ -55,57 +55,7 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# Use localized Python docs on Read the Docs build(copy form weblate org repo)
-rtd_lang = os.environ.get("READTHEDOCS_LANGUAGE")
-
-python_doc_url = "https://docs.python.org/3.9/"
-if rtd_lang == "zh_CN":
-    python_doc_url = "https://docs.python.org/zh-cn/3.9/"
-#elif rtd_lang in ("es", "fr", "ja", "ko"):
-#    python_doc_url = f"https://docs.python.org/{rtd_lang}/3.9/"
-#elif rtd_lang == "zh_CN":
-#    python_doc_url = "https://docs.python.org/zh-cn/3.9/"
-#elif rtd_lang == "zh_TW":
-#    python_doc_url = "https://docs.python.org/zh-tw/3.9/"
-
-django_doc_url = "https://docs.djangoproject.com/en/stable/"
-#if rtd_lang in ("el", "es", "fr", "id", "ja", "ko", "pl"):
-#    django_doc_url = f"https://docs.djangoproject.com/{rtd_lang}/stable/"
-if rtd_lang == "pl":
-    django_doc_url = "https://docs.djangoproject.com/pl/stable/"
-#elif rtd_lang == "pt_BR":
-#    django_doc_url = "https://docs.djangoproject.com/pt-br/stable/"
-elif rtd_lang == "zh_CN":
-    django_doc_url = "https://docs.djangoproject.com/zh-hans/stable/"
-
-sphinx_doc_url = "https://www.sphinx-doc.org/en/stable/"
-if rtd_lang in (
-    "pl",
-    "zh_CN",
-):
-    sphinx_doc_url = f"https://www.sphinx-doc.org/{rtd_lang}/stable/"
-
-# Configuration for intersphinx
-intersphinx_mapping = {
-    "python": (python_doc_url, None),
-    "django": (django_doc_url, f"{django_doc_url}_objects/"),
-    "psa": ("https://python-social-auth.readthedocs.io/en/latest/", None),
-    "tt": (
-        "http://docs.translatehouse.org/projects/translate-toolkit/en/latest/",
-        None,
-    ),
-    "amagama": ("https://docs.translatehouse.org/projects/amagama/en/latest/", None),
-    "virtaal": ("http://docs.translatehouse.org/projects/virtaal/en/latest/", None),
-    "ldap": ("https://django-auth-ldap.readthedocs.io/en/latest/", None),
-    "celery": ("https://docs.celeryproject.org/en/latest/", None),
-    "sphinx": (sphinx_doc_url, None),
-    "rtd": ("https://docs.readthedocs.io/en/latest/", None),
-    "venv": ("https://virtualenv.pypa.io/en/stable/", None),
-    "borg": ("https://borgbackup.readthedocs.io/en/stable/", None),
-    "pip": ("https://pip.pypa.io/en/stable/", None),
-    "compressor": ("https://django-compressor.readthedocs.io/en/stable/", None),
-}
 
 gettext_compact = False 
-
+language = "zh_CN"
 locale_dirs = ["locale/"]
