@@ -55,6 +55,7 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-language = None
-locale_dirs = ['locale/']   # path is example but recommended.
+
 gettext_compact = False 
+language = "zh_CN"
+locale_dirs = ["locale/"]
