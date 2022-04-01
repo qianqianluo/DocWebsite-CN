@@ -24,8 +24,7 @@ author = 'Qian Luo'
 # The full version, including alpha/beta/rc tags
 release = '0.1'
 
-# Change the sourcedir programmatically because Read the Docs always call it with `.`
-app.srcdir = 'src/docs'
+
 
 # -- General configuration ---------------------------------------------------
 
